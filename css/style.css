@@ -1,0 +1,26 @@
+body{
+	background-color: #2F4F4F;
+}
+h1, #signature{
+	color: #1a1a1a;
+	font-family: Cinzel;
+}
+#calc{
+	background-color: black;
+	border: solid;
+	border-color: silver;
+	border-radius: 10%;
+}
+#outSec{
+	background-color: transparent !important;
+}
+.btn{
+	background-color: silver;
+	color: black;
+}
+.op{
+	background-color: orange;
+}
+#clButt{
+	background-color: #d9534f;
+}

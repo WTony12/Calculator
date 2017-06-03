@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet" type="text/css">
+
+<div class="container">
+	<h1 class="text-center">Calculator</h1>
+	<br>
+	<br>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col"></div>
+			<div id="calc"class="col">
+				<!--Output Fields-->
+				<br>
+				<input type="text" class="form-control" id="output" disabled>
+				<input type="text" class="form-control" id="outSec" disabled>
+				<!--Buttons-->
+				<div class="row">
+					<div class="col">
+						<button id="clButt" class="btn btn-danger btn-block">C</button>
+					</div>
+					<div class="row">
+						<div class="col">
+							<button id="divButt" class="btn btn-secondary btn-block op">/</button>
+						</div>
+						<div class="col">
+							<button id="mulButt" class="btn btn-secondary btn-block op">x</button>
+						</div>
+						<div class="col"></div>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col">
+						<button id="sevenButt" class="btn btn-secondary btn-block">7</button>
+					</div>
+					<div class="col">
+						<button id="eightButt" class="btn btn-secondary btn-block">8</button>
+					</div>
+					<div class="col">
+						<button id="nineButt" class="btn btn-secondary btn-block">9</button>
+					</div>
+					<div class="col">
+						<button id="subButt"class="btn btn-secondary btn-block op">-</button>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col">
+						<button id="fourButt" class="btn btn-secondary btn-block">4</button>
+					</div>
+					<div class="col">
+						<button id="fiveButt" class="btn btn-secondary btn-block">5</button>
+					</div>
+					<div class="col">
+						<button id="sixButt" class="btn btn-secondary btn-block">6</button>
+					</div>
+					<div class="col">
+						<button id="plusButt"class="btn btn-secondary btn-block op">+</button>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col">
+						<button id="oneButt" class="btn btn-secondary btn-block">1</button>
+					</div>
+					<div class="col">
+						<button id="twoButt" class="btn btn-secondary btn-block">2</button>
+					</div>
+					<div class="col">
+						<button id="threeButt" class="btn btn-secondary btn-block">3</button>
+					</div>
+					<div class="col">
+						<button id="eqButt"class="btn btn-secondary btn-block op">=</button>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col">
+						<button id="zeroButt" class="btn btn-secondary btn-block">0</button>
+					</div>
+					<div class="col">
+						<button id="dotButt" class="btn btn-secondary btn-block op">.</button>
+					</div>
+				</div>
+				<br>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<h4 id="signature" class="text-center">Developed by Tony Wagdi</h4>
+</div>
+</body>
+</html>
